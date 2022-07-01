@@ -11,7 +11,7 @@ export default function App() {
             let data = response.data.slip.advice
             setQuote(quote = data);
         }).catch((error) => {
-            console.log(error);
+            console.log("error",error);
         });
     }
     return (
